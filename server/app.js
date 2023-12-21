@@ -24,6 +24,7 @@ app.get('/users', async (req, res) => {
 app.get('/users/:id', async (req, res) => {
     res.send('Hello World!')
 })
+//kub
 app.delete('/users', async (req, res) => {
     try {
         const token = req.headers.authorization
@@ -39,6 +40,10 @@ app.post('/register', async (req, res) => {
 
     res.send(token)
 })
+
+
+
+
 
 
 
